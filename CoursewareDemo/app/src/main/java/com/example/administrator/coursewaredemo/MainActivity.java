@@ -9,6 +9,7 @@ import android.widget.ImageView;
 public class MainActivity extends AppCompatActivity {
     Button btn1,btn2;
     ImageView imageView;
+    //注释
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
