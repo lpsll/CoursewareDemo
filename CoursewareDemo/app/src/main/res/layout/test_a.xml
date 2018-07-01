@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="账号"
+            android:gravity="center"
+            android:textColor="@color/red"
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:hint="账号为八位数"
+            android:textSize="20sp"
+            android:textColorHint="@color/blue"
+            android:textColor="@color/red"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="密码"
+            android:gravity="center"
+            android:textColor="@color/red"
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:hint="账号为六位数"
+            android:textSize="20sp"
+            android:password="true"
+            android:inputType="number"
+            android:textColorHint="@color/blue"
+            android:textColor="@color/red"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="年龄"
+            android:gravity="center"
+            android:textColor="@color/red"
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textColor="@color/red"/>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="注册"/>
+
+
+</LinearLayout>

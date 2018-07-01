@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="60dp" 
+        android:orientation="horizontal">
+        <TextView android:layout_width="100px" 
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="账号"/>
+        <EditText
+            android:id="@+id/et1" 
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:hint="请输入八位数"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="60dp" 
+        android:orientation="horizontal">
+        <TextView android:layout_width="100px" 
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="密码"/>
+        <EditText
+            android:id="@+id/et2" 
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:hint="请输入六位数"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="60dp" 
+        android:orientation="horizontal">
+        <TextView android:layout_width="100px" 
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="年龄"/>
+        <EditText
+            android:id="@+id/et3" 
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:hint="请输入年月日"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="60dp" 
+        android:orientation="horizontal">
+        <TextView android:layout_width="100px" 
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="电话"/>
+        <EditText
+            android:id="@+id/et4" 
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:hint="移动号码"/>
+    </LinearLayout>
+    <Button android:id="@+id/btn" 
+        android:layout_width="300dp" 
+        android:layout_height="60dp"
+        android:text="确定"/>
+    
+    <TextView android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+     <TextView android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+      <TextView android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+       <TextView android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+</LinearLayout>
